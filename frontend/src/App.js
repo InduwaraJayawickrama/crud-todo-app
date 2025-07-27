@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react';
+import "./App.css"
 
 function App() {
   const [Todos, setTodos] = useState([]);
@@ -51,7 +52,7 @@ function App() {
 
   return (
     <div classname="App">
-
+      <h1>Task Manager</h1>
       <form onSubmit={createTodo}>
         <input
           type='text'

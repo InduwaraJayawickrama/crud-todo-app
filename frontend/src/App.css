@@ -1,0 +1,89 @@
+/* App container */
+.App {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Form */
+  form {
+    background-color: #ffffff;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Input */
+  input[type="text"] {
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    width: 250px;
+  }
+  
+  /* Create button */
+  .todo-app-button {
+    padding: 0.75rem 1.2rem;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .todo-app-button:hover {
+    background-color: #43a047;
+  }
+  
+  /* Todos container */
+  div > div {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Individual Todo card */
+  div > div > div {
+    background-color: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Task and status text */
+  div > div > div > p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Delete button */
+  button {
+    padding: 0.5rem 0.9rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #e53935;
+  }
+  

@@ -23,7 +23,7 @@ function App() {
     const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/todos`,
       {
         method: "POST",
-        header: { "Constent-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ task }),
       },
     );

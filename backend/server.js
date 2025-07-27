@@ -11,7 +11,7 @@ app.use("/api",routes);
 
 const connectDB = require("./connectDb");
 
-const port = 5000;
+const port = 5000;  
 
 const startServer = async () => {
     await connectDB();
